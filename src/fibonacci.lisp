@@ -11,5 +11,5 @@
       n
       (+ (fibonacci-rec (- n 2)) (fibonacci-rec (- n 1)))))
 
-(defun main ()
+(defun main (argv)
   (print (fibonacci-rec (parse-integer (read-line)))))
