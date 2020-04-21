@@ -5,6 +5,6 @@
   :depends-on ()
   :components ((:module "src"
                 :components
-                ((:module "hello-world"
-		  :components ((:file "hello-world"))))))
+                ((:file "hello-world")
+		 (:file "fibonacci"))))
   :description "A project to play around with Common Lisp")
